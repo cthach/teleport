@@ -20,9 +20,6 @@
     "**/tests/**",
     "**/__fixtures__/**"
   ],
-  "schedule": [
-    "every week"
-  ],
   "customManagers": [
     {
       "customType": "regex",
