@@ -80,7 +80,14 @@
       ],
       "matchUpdateTypes": [
         "major",
-        "minor"
+        "minor",
+        "pin",
+        "pinDigest",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump",
+        "replacement"
       ],
       "enabled": false
     },
