@@ -91,6 +91,8 @@
       "matchDepNames": [
         "go"
       ],
+      "separateMultipleMinor": true,
+      "separateMinorPatch": true,
       "matchUpdateTypes": [
         "patch"
       ],
