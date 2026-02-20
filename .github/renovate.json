@@ -78,6 +78,16 @@
       "matchDepNames": [
         "go"
       ],
+      "separateMultipleMinor": true,
+      "separateMinorPatch": true
+    },
+    {
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
       "matchUpdateTypes": [
         "minor",
         "major"
@@ -91,8 +101,6 @@
       "matchDepNames": [
         "go"
       ],
-      "separateMultipleMinor": true,
-      "separateMinorPatch": true,
       "matchUpdateTypes": [
         "patch"
       ],
