@@ -1,5 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "baseBranchPatterns": [
+    "master",
+    "branch/v18",
+    "branch/v17"
+  ],
   "extends": [
     "config:recommended"
   ],
@@ -75,11 +80,6 @@
       "matchManagers": [
         "custom.regex"
       ],
-      "matchBaseBranches": [
-        "master",
-        "branch/v18",
-        "branch/v17"
-      ],
       "matchDepNames": [
         "go"
       ],
@@ -89,11 +89,6 @@
     {
       "matchManagers": [
         "custom.regex"
-      ],
-      "matchBaseBranches": [
-        "master",
-        "branch/v18",
-        "branch/v17"
       ],
       "matchDepNames": [
         "go"
@@ -107,11 +102,6 @@
     {
       "matchManagers": [
         "custom.regex"
-      ],
-      "matchBaseBranches": [
-        "master",
-        "branch/v18",
-        "branch/v17"
       ],
       "matchDepNames": [
         "go"
