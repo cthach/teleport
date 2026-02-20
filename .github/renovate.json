@@ -75,6 +75,11 @@
       "matchManagers": [
         "custom.regex"
       ],
+      "matchBaseBranches": [
+        "master",
+        "branch/v18",
+        "branch/v17"
+      ],
       "matchDepNames": [
         "go"
       ],
@@ -84,6 +89,11 @@
     {
       "matchManagers": [
         "custom.regex"
+      ],
+      "matchBaseBranches": [
+        "master",
+        "branch/v18",
+        "branch/v17"
       ],
       "matchDepNames": [
         "go"
@@ -98,6 +108,11 @@
       "matchManagers": [
         "custom.regex"
       ],
+      "matchBaseBranches": [
+        "master",
+        "branch/v18",
+        "branch/v17"
+      ],
       "matchDepNames": [
         "go"
       ],
@@ -107,8 +122,7 @@
       "enabled": true,
       "groupName": "Go version",
       "groupSlug": "go-version",
-      "prHourlyLimit": 10,
-      "recreateWhen": "always",
+      "prHourlyLimit": 5,
       "prBodyNotes": [
         "Changelog: Updated Go to {{{newValue}}}."
       ],
