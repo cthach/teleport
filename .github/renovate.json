@@ -79,6 +79,19 @@
         "go"
       ],
       "matchUpdateTypes": [
+        "major",
+        "minor"
+      ],
+      "enabled": false
+    },
+    {
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "matchUpdateTypes": [
         "patch"
       ],
       "groupName": "Go version",
