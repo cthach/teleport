@@ -79,12 +79,25 @@
         "go"
       ],
       "matchUpdateTypes": [
+        "minor",
+        "major"
+      ],
+      "enabled": false
+    },
+    {
+      "matchManagers": [
+        "custom.regex"
+      ],
+      "matchDepNames": [
+        "go"
+      ],
+      "matchUpdateTypes": [
         "patch"
       ],
       "enabled": true,
       "groupName": "Go version",
       "groupSlug": "go-version",
-      "prHourlyLimit": 5,
+      "prHourlyLimit": 10,
       "recreateWhen": "always",
       "prBodyNotes": [
         "Changelog: Updated Go to {{{newValue}}}."
