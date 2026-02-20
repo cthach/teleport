@@ -21,7 +21,7 @@
     "**/__fixtures__/**"
   ],
   "schedule": [
-    "at any time"
+    "every week"
   ],
   "customManagers": [
     {
@@ -81,6 +81,9 @@
       ],
       "matchDepNames": [
         "go"
+      ],
+      "matchUpdateTypes": [
+        "patch"
       ],
       "groupName": "Go version",
       "groupSlug": "go-version",
