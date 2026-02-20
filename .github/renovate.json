@@ -79,28 +79,9 @@
         "go"
       ],
       "matchUpdateTypes": [
-        "major",
-        "minor",
-        "pin",
-        "pinDigest",
-        "digest",
-        "lockFileMaintenance",
-        "rollback",
-        "bump",
-        "replacement"
-      ],
-      "enabled": false
-    },
-    {
-      "matchManagers": [
-        "custom.regex"
-      ],
-      "matchDepNames": [
-        "go"
-      ],
-      "matchUpdateTypes": [
         "patch"
       ],
+      "enabled": true,
       "groupName": "Go version",
       "groupSlug": "go-version",
       "prHourlyLimit": 5,
